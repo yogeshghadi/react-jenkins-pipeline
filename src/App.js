@@ -10,7 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p>Hello, this is first Jenkins pipeline</p>
-        <p>test 4, Jenkins pipeline</p>
+        <p>test 5, Jenkins pipeline</p>
         <a
           className="App-link"
           href="https://reactjs.org"
