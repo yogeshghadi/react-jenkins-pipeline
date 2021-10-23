@@ -9,8 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Hello, this is first Jenkins pipeline</p>
-        <p>test 6, Jenkins pipeline</p>
+        <p>Hello, React multibranch Jenkins pipeline</p>
         <a
           className="App-link"
           href="https://reactjs.org"
