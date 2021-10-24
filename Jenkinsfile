@@ -1,18 +1,16 @@
 pipeline {
-    agent any
+    // agent any
 
-    tools {nodejs "node12"}
-    /* {
+    // tools {nodejs "node12"}
+    agent  {
         docker {
-            image 'node:lts-buster-slim' 
-            args '-p 3000:3000' 
+            image 'node:14-alpine'
         }
-    } */
+    }
+
     stages {
         stage('Build') { 
             steps {
-                env.PATH="${env.NODE_HOME}/bin:${env.PATH}"
-                sh 'printenv'
                 sh 'node -v'
             }
         }
