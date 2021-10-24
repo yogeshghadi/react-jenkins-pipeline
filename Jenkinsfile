@@ -11,7 +11,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
+                env.PATH="${env.NODE_HOME}/bin:${env.PATH}"
                 sh 'printenv'
+                sh 'node -v'
             }
         }
     }
